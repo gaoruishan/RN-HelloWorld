@@ -14,10 +14,12 @@ import {
 } from 'react-native';
 
 import outStyle from './ViewStyles';
+
 //获取宽高
 var Dimensions = require("Dimensions");
 let ScreenWidth = Dimensions.get('window').width;
 let ScreenHeight = Dimensions.get('window').height;
+
 //定义对象
 var viewStyle = {
     flex: 1,//平分 + 100
