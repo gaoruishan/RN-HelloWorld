@@ -20,7 +20,8 @@
 * React Native 与 Hybrid 完全没有关系
 
 ##`流程`
-“Server 获取配置 --> 解析 --> 执行native代码”。
+
+### Server 获取配置 --> 解析 --> 执行native代码 。
 
 * 核心
 
@@ -30,7 +31,7 @@
   
   3,解析完 JSON 后，我们调用 Objective-C 的代码，完成 UI 控件的渲染。
 * Objective-C 与 JavaScript 交互
-
+![](./images/Objective-C 与 JavaScript 交互.png)
    
 ### 内容
    
